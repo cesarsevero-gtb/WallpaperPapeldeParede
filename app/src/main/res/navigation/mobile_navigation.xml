@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.getworld.wallpaperpapeldeparede.ui.categoria.CategoriaFragment"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categoria" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.getworld.wallpaperpapeldeparede.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
